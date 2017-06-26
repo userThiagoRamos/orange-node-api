@@ -221,7 +221,7 @@ module.exports = {
     *                                                                          *
     ***************************************************************************/
     onlyAllowOrigins: [
-      'https://nodeorange.herokuapp.com/',
+      'https://nodeorange.herokuapp.com',
     ],
 
 
