@@ -49,7 +49,7 @@ module.exports.datastores = {
          *                                                                          *
          ***************************************************************************/
         adapter: 'sails-postgresql',
-        url: 'postgres://hrmgmtvu:ZXHMkmJoe_JnYpBeuIFs1c1W6UP4xizl@tantor.db.elephantsql.com:5432/hrmgmtvu',
+        url: process.env.DATABASE_URL,
 
     },
 
