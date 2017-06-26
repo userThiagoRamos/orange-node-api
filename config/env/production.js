@@ -46,8 +46,8 @@ module.exports = {
     *                                                                          *
     ***************************************************************************/
     default: {
-      // adapter: 'sails-mysql',
-      // url: 'mysql://user:password@host:port/database',
+      adapter: 'sails-postgresql',
+      url: process.env.DATABASE_URL,
     },
     //--------------------------------------------------------------------------
     //  /\   To avoid checking it in to version control, you might opt to set
@@ -220,9 +220,9 @@ module.exports = {
     * > Be sure to use the right protocol!  ("http://" vs. "https://")         *
     *                                                                          *
     ***************************************************************************/
-    // onlyAllowOrigins: [
-    //   'https://example.com',
-    // ],
+    onlyAllowOrigins: [
+      'https://nodeorange.herokuapp.com',
+    ],
 
 
     /***************************************************************************
